@@ -7,66 +7,85 @@
     <meta name="keywords" content="vlad,vlados,cv,resume,v4b">
     <meta name="description" content="This is resume of Vladislav Usachev">
     <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <p>
-        <img src="https://i.pinimg.com/originals/ef/84/33/ef8433606891928ab88136a23ade1553.jpg" width="150" alt="Ава">
-    </p>
-    <h1>Владислав Усачев</h1>
-    <p><strong>Lorem ipsum,</strong><br><em>dolor sit amet consectetur adipisicing elit. Numquam mollitia voluptatum culpa at perspiciatis praesentium, aliquam sit provident reiciendis consectetur.</em></p>
-    <p><strong>Мои соц.сети:</strong></p>
-    <ul>
-        <li><a href="https://vk.com/v_4_b" target="_blank">ВК</a></li>
-        <li><a href="https://instagram.com/v_4_b" target="_blank">Инст</a></li>
-        <li><a href="https:/t.me/Vladislav_all" target="_blank">Тг</a></li>
-    </ul>
-    <p><strong>Мои хобби:</strong></p>
-    <ol>
-        <li>Путешествия</li>
-        <li>Горные лыжи</li>
-        <li>Футбол</li>
-        <li>ММА</li>
-    </ol>
-    <p><strong>Опыт работы:</strong></p>
-    <table>
-        <thead>
-            <tr>
-                <th>Название</th>
-                <th>Должность</th>
-                <th>Год</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>СВУ</td>
-                <td>Суворовец</td>
-                <td>2015-2022</td>
-            </tr>
-            <tr>
-                <td>КХТИ</td>
-                <td>Студент</td>
-                <td>2022-2026</td>
-            </tr>
-        </tbody>
-    </table>
+<div class="container">
+    <div class="me">
+            <div class="img">
+                <p>
+                    <img src="https://i.pinimg.com/originals/ef/84/33/ef8433606891928ab88136a23ade1553.jpg" width="150" alt="Ава">
+                </p>
+            </div>
+            <div class="me-text">
+            <div class="card-1">
+                <h1>Владислав Усачев</h1>
+            </div>
+            <div class="card-2">
+                <header id="header"><p><strong>Lorem ipsum,</strong><br><em>dolor sit amet consectetur adipisicing elit. Numquam mollitia voluptatum culpa at perspiciatis praesentium, aliquam sit provident reiciendis consectetur.</em></p></header>
+            </div>
+            <div class="card-3">  
+                <h4>Мои соц.сети:</h4>
+                    <a href="https://vk.com/v_4_b" target="_blank">ВК</a> |
+                    <a href="https:/t.me/Vladislav_all" target="_blank">Тг</a>
+            </div>
+        </div>
+    </div>
+    <div class="card-4">
+            <p><strong>Мои хобби:</strong></p>
+        <ul class="hobby">
+            <li>Путешествия</li>
+            <li>Горные лыжи</li>
+            <li>Футбол</li>
+            <li>ММА</li>
+        <ul/>
+    </div>
+    <div class="card-5">
+        <p><strong>Опыт работы:</strong></p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>СВУ</td>
+                    <td>Суворовец</td>
+                    <td>2015-2022</td>
+                </tr>
+                <tr>
+                    <td>КХТИ</td>
+                    <td>Студент</td>
+                    <td>2022-2026</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     <br>
-    <form>
-        <div>
-            <label for="text">Ваше имя:</label>
-            <input type="text" id="text" placeholder="Ваше имя...">
-        </div>
-        <div>
-            <label for="email">Ваш Email:</label>
-            <input type="text" id="email" placeholder="Ваш Email...">
-        </div>
-        <div>
-            <label for="message">Ваше сообщение:</label>
-            <br>
-            <textarea id="message" cols="20" rows="3" placeholder="Ваше сообщение..."></textarea>
-        </div>
-        <button type="submit">Отправить!</button>
-        <button type="reset">Сбросить.</button>
+        <form class="form">
+            <h2>Связаться со мной</h2>
 
-    </form>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="text">Ваше имя:</label>
+                    <input type="text" id="text" placeholder="Ваше имя...">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш Email:</label>
+                    <input type="text" id="email" placeholder="Ваш Email...">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                <textarea id="message" cols="20" rows="3" placeholder="Ваше сообщение..."></textarea>
+            </div>
+            <button type="submit" class="btn">Отправить!</button>
+            <button type="reset" class="btn">Сбросить.</button>
+
+        </form>
+</div>
 </body>
 </html>

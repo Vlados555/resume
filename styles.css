@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+.me{
+    display: flex;
+    margin: 0;
+}
+
+.me-text{
+    margin-left:40px ;
+}
+
+.me-text h1{
+    margin: 0;
+}
+
+@media (max-width: 650px) {
+    .me{
+        display: block;
+        text-align: center;
+    }
+}
+
+#header{
+    font-style: italic;
+    font-family: 'Roboto';;
+}
+body {
+    background: #d4d4d3;
+    margin-bottom: 30px;
+    /* color: white; */
+}
+.img p{
+    margin: 0px;
+}
+.img img{
+    border-radius: 20px;
+    border: 1px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.card-2{
+    font-size: 14px;
+}
+
+.card-3{
+    font-size: 14px;
+}
+
+.card-4{
+    border: 1px;
+    background: Khaki;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.card-5{
+    background: LightGreen;
+    border-radius: 10px;
+    border: 1px;
+    padding: 10px;
+    margin-top: 10px;
+}
+/* .card-6{
+    border: 1px;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+} */
+.container{
+    margin: auto;
+    max-width: 750px;
+
+}
+.btn{
+    background: gray;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    font-family: inherit;
+}
+.btn:hover{
+    color: orange;
+    opacity: 0.9;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+
+}
+.btn:active{
+    color: white;
+}
+a{
+    color: darkslategray;
+    text-decoration: none;
+    font-style: bold;
+}
+a:hover{
+    color: rgb(117, 117, 243);
+}
+a:active{
+    color: blue;
+}
+/* a:visited{
+    color: rgb(226, 43, 43);
+} */
+
+
+.hobby{
+    padding-left: 20px;
+}
+
+
+.table td{
+    text-align: center;
+}
+
+/* .table td:nth-child(2), .table td:nth-child(3) {
+    background: rgb(0, 248, 0);
+} */
+
+.table tr:nth-child(1){
+    background: rgb(0, 248, 0);
+}
+.table tr:nth-child(2){
+    background: rgb(0, 248, 0);
+    
+} 
+
+.table th{
+    background: LightGreen;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group{
+    margin-right: 20px;
+    width: 50%;
+    /* display: inline-block; */
+    /* width: calc(50%-20px); */
+}
+
+.form-row .form-group:last-child{
+    margin-right: 0;
+}
+
+@media (max-width: 650px) {
+    .form-row{
+        display: block;
+        
+    }
+
+    .form-group, .form-row{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}
+
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+}
+
+.form-group input, .form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    padding: 15px 0 0px;
+    outline: none;
+    font-family: inherit;
+
+}
